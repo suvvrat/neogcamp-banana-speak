@@ -6,12 +6,21 @@
 
 var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
-console.log(txtInput);  
+var outputDiv = document.querySelector("#output");
+// outputDiv.innerText = "Suvrat Verma"
+console.log(outputDiv);
+// console.log(txtInput);  
 // console.log(btnTranslate);
 
 function clickHandler(){
-    console.log("clicked!");
-    console.log("input",txtInput.value);
+
+    outputDiv.innerText = "ajajajajajadsa " + txtInput.value;
+
+
+
+    // console.log("clicked!");
+    // console.log("input",txtInput.value);
+
 };
 
 
